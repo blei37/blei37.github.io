@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+//default imports
+import React from "react";
+import styled from "styled-components";
+
+//import components
+import NavBar from "./components/NavBar";
+import SearchBar from "./components/SearchBar";
+import AboutSection from "./components/AboutSection";
+
+//import assets
+import appBackground2 from "./assets/appBackground2.jpg";
 
 function App() {
+  //styles
+  const AppContainer = styled.div`
+    height: 100vh;
+    width: 100%;
+    background-image: url(${appBackground2});
+    background-size: 100% 100%;
+  `;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <NavBar />
+      <AboutSection />
+      <SearchBar />
+    </AppContainer>
   );
 }
 
