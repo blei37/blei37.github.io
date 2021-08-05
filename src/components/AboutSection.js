@@ -39,7 +39,8 @@ function AboutSection() {
   //constants
   const description = (
     <div>
-      I'm Brandon - a software engineer, MIT student, and a basketball player
+      I'm Brandon - a software engineer, MIT student, and a basketball player,
+      and youtuber!
     </div>
   );
 
