@@ -6,7 +6,7 @@ import "../App.css";
 //import assets
 import profilePic from "../assets/profilePic.png";
 
-function AboutSection() {
+function HomePage() {
   //styles
   const MainContainer = styled.div`
     width: 80%;
@@ -39,8 +39,7 @@ function AboutSection() {
   //constants
   const description = (
     <div>
-      I'm Brandon - a software engineer, MIT student, and a basketball player,
-      and youtuber! NEW EDIT!
+      I'm Brandon - a software engineer, MIT student, and a basketball player.
     </div>
   );
 
@@ -50,9 +49,9 @@ function AboutSection() {
         <Title>Hey Friends! -</Title>
         {description}
       </LeftContainer>
-      <RightContainer></RightContainer>
+      <RightContainer />
     </MainContainer>
   );
 }
 
-export default AboutSection;
+export default HomePage;

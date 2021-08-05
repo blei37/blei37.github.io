@@ -1,10 +1,11 @@
 //default imports
 import React from "react";
+import { BrowserRouter, useHistory } from "react-router-dom";
 import styled from "styled-components";
 import "../App.css";
 
-//import assets
-import profilePic from "../assets/profilePic.png";
+//import components
+import NavLink from "./NavLink";
 
 function NavBar() {
   //styles
@@ -24,7 +25,12 @@ function NavBar() {
     font-size: 2em;
     color: purple;
     letter-spacing: 5px;
+
+    :hover {
+      cursor: pointer;
+    }
   `;
+
   const RightContainer = styled.div`
     width: 45%;
     display: flex;
@@ -33,14 +39,22 @@ function NavBar() {
     align-items: center;
   `;
 
+  //functions
+  let history = useHistory();
+  const handleHome = () => {
+    history.push({
+      pathname: "/",
+    });
+  };
+
   return (
     <MainContainer>
-      <LeftContainer>BL</LeftContainer>
+      <LeftContainer onClick={handleHome}>BL</LeftContainer>
       <RightContainer>
-        <div>ABOUT</div>
-        <div>PROJECTS</div>
-        <div>BLOGS</div>
-        <div>CONTACT</div>
+        <NavLink name="About" />
+        <NavLink name="Projects" />
+        <NavLink name="Blogs" />
+        <NavLink name="Contact" />
       </RightContainer>
     </MainContainer>
   );
