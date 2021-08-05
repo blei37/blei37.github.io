@@ -23,7 +23,7 @@ function App() {
     <AppContainer>
       <NavBar />
       <AboutSection />
-      <SearchBar />
+      {/* <SearchBar /> */}
     </AppContainer>
   );
 }
