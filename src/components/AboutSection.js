@@ -40,7 +40,7 @@ function AboutSection() {
   const description = (
     <div>
       I'm Brandon - a software engineer, MIT student, and a basketball player,
-      and youtuber!
+      and youtuber! NEW EDIT!
     </div>
   );
 
