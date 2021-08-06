@@ -1,7 +1,7 @@
 //default imports
 import React from "react";
 import styled from "styled-components";
-import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 //import components
 import NavBar from "./components/NavBar";

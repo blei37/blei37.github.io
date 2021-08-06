@@ -1,6 +1,6 @@
 //default imports
 import React from "react";
-import { BrowserRouter, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import "../App.css";
 

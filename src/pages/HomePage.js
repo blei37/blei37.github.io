@@ -34,6 +34,7 @@ function HomePage() {
     background-image: url(${profilePic});
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    border-radius: 10%;
   `;
 
   //constants
