@@ -54,7 +54,7 @@ function NavBar() {
         <NavLink name="About" />
         <NavLink name="Projects" />
         <NavLink name="Blogs" />
-        <NavLink name="Contact" />
+        {/* <NavLink name="Contact" /> */}
       </RightContainer>
     </MainContainer>
   );

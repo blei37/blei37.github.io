@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 //import components
-import Card from "../components/Card";
+import ProjectCard from "../components/ProjectCard";
 
 //import styles
 import styled from "styled-components";
@@ -13,6 +13,7 @@ import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 //import project images
 import campfire from "../assets/projects/campfire.png";
 import everwing from "../assets/projects/everwing.jpg";
+import tupleTunes from "../assets/projects/tupleTunes.png";
 
 function Projects() {
   //styles
@@ -57,6 +58,13 @@ function Projects() {
         "In terms of accessiblity, this game didn't require internet connection for others to play. It was hardware controlled meaning those who are not familiar with operating with a playstation style controller would have a difficult time with the game",
       image: everwing,
     },
+    "Tuple Tunes": {
+      description:
+        "This is a project I created with 4 other friends for our Embedded Systems Project. The front end controls consisted of joysticks, buttons, microphones, LEDs, LCDs, speakers all connected to a ESP 32 microcontroller. The purpose of this project is to create a game for people together to create music! Once a game is created by a host, others can join the same game using the game code. Inside the game, players can put together notes to create part of a or a full measure. The players add on and at the end, the players will have created a song together!",
+      reflection:
+        "This game was meant for those who are new to music to have a relatively low barrier of entry to creating music! It allows for friends to come together to create songs. I always strive to make a game that is accessible and inclusive. With the speaker and the joystick to toggle between notes, I believe I did a good job in designing an easy to play to learn music!  ",
+      image: tupleTunes,
+    },
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -82,7 +90,7 @@ function Projects() {
         <ArrowBackIosIcon />
       </ArrowContainer>
       <InfoContainer>
-        <Card
+        <ProjectCard
           title={titles[currentIndex]}
           image={projects[titles[currentIndex]].image}
           description={projects[titles[currentIndex]].description}
