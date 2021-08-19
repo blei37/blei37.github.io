@@ -12,17 +12,16 @@ function NavLink(props) {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
-    text-decoration: underline;
+    text-decoration: none;
     padding: 10px;
-    transition: 0.8s;
-    border-radius: 15%;
+    transition-duration: 0.8s;
+    text-decoration: underline;
+    color: black;
 
     :hover {
       cursor: pointer;
       background-color: #15194f;
       color: white;
-      text-decoration: none;
-      transform: scale(1.1);
     }
   `;
 

@@ -5,15 +5,18 @@ import "../App.css";
 
 //import assets
 import profilePic from "../assets/profilePic.png";
+import mountainRange from "../assets/mountainRange.jpg";
 
 function HomePage() {
   //styles
+
   const MainContainer = styled.div`
     width: 80%;
     height: 50%;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    color: white;
   `;
 
   const LeftContainer = styled.div`
@@ -35,6 +38,10 @@ function HomePage() {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10%;
+
+    @media (max-width: 1150px) {
+      background-image: none;
+    }
   `;
 
   //constants

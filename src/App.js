@@ -13,13 +13,15 @@ import Contact from "./pages/Contact";
 
 //import assets
 import appBackground from "./assets/appBackground.jpg";
+import cityLine from "./assets/cityLine.jpg";
+import mountainRange from "./assets/mountainRange.jpg";
 
 function App() {
   //styles
   const AppContainer = styled.div`
     height: 100vh;
     width: 100%;
-    background-image: url(${appBackground});
+    background-image: url(${mountainRange});
     background-size: 100% 100%;
   `;
 
