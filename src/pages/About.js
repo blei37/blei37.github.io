@@ -71,14 +71,14 @@ function About() {
         </DescriptionContainer>
       </InfoContainer>
       <InfoContainer>
-        I was raised in NYC my two loving parents. NYC is the known as the city
+        I was raised in NYC by two loving parents. NYC is the known as the city
         that never sleeps and I absolutely love the hustle and bustle. In my
         free time, I love dancing, coding, hiking, running and playing
         basketball. Throughout my life, I have embodied multiple personalities -
         a son, a student, a learner, an athlete, a software engineer - yet the
         same core values and goals that make up who I am have remained the same.
         Be it in on the basketball court, at school or in the code that I write,
-        I always strive for excellence, discipline, equality, honesty and love.
+        I always strive for excellence, inclusivity, equality, honesty and love.
       </InfoContainer>
     </MainContainer>
   );

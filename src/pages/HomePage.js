@@ -21,13 +21,14 @@ function HomePage() {
   //styles
 
   const MainContainer = styled.div`
-    width: 80%;
+    width: 75%;
     height: 80%;
     margin: 2em auto;
   `;
 
   const ContentContainer = styled.div`
     height: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     color: white;

@@ -18,8 +18,6 @@ function BlogCard({ title, image, description }) {
     font-size: 2.5em;
     margin: 0.5em auto;
     color: #39375b;
-    border: 1px solid black;
-    border-radius: 1em;
     width: 50%;
   `;
 
@@ -40,9 +38,13 @@ function BlogCard({ title, image, description }) {
 
   const DescriptionContainer = styled.div`
     width: 50%;
+    height: 100%;
     font-size: 1em;
     color: #f6e7e6;
     margin: auto;
+    overflow-y: scroll;
+    padding: 0 2em;
+    text-align: left;
   `;
 
   return (

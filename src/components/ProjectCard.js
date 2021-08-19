@@ -14,9 +14,11 @@ function ProjectCard({ title, image, description, reflection }) {
   `;
 
   const TitleContainer = styled.div`
-    font-weight: 200;
-    font-size: 2.5em;
-    margin: 0.5em;
+    font-size: 2em;
+    margin: 0.2em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+    color: black;
   `;
 
   const InfoContainer = styled.div`
@@ -24,14 +26,16 @@ function ProjectCard({ title, image, description, reflection }) {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   `;
 
   const ImageContainer = styled.div`
     width: 40%;
+    height: 90%;
     background-image: url(${image});
     background-size: 100% 100%;
     border-radius: 1em;
+    margin: auto;
   `;
 
   const DescriptionContainer = styled.div`
@@ -39,22 +43,40 @@ function ProjectCard({ title, image, description, reflection }) {
     font-size: 1em;
     color: #f6e7e6;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   `;
 
   const ReflectionContainer = styled.div`
     font-size: 1em;
     margin: 0.5em;
     color: white;
+    width: 100%;
+    height: 20%;
+    text-align: left;
   `;
+
+  const ReflectionTitle = styled.div`
+    font-size: 1.5em;
+    margin: 0.3em;
+    font-style: italic;
+  `;
+  const ReflectionDescription = styled.div``;
 
   return (
     <MainContainer>
-      <TitleContainer>{title}</TitleContainer>
       <InfoContainer>
         <ImageContainer />
-        <DescriptionContainer>{description}</DescriptionContainer>
+        <DescriptionContainer>
+          <TitleContainer>{title}</TitleContainer>
+          <div>{description}</div>
+        </DescriptionContainer>
       </InfoContainer>
-      <ReflectionContainer>{reflection}</ReflectionContainer>
+      <ReflectionContainer>
+        <ReflectionTitle>Reflection</ReflectionTitle>
+        <ReflectionDescription>{reflection}</ReflectionDescription>
+      </ReflectionContainer>
     </MainContainer>
   );
 }

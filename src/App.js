@@ -21,6 +21,7 @@ function App() {
   const AppContainer = styled.div`
     height: 100vh;
     width: 100%;
+    background-color: black;
     background-image: url(${mountainRange});
     background-size: 100% 100%;
   `;
