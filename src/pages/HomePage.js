@@ -7,16 +7,37 @@ import "../App.css";
 import profilePic from "../assets/profilePic.png";
 import mountainRange from "../assets/mountainRange.jpg";
 
+//import components
+import Social from "../components/Social.js";
+
+//import social icons
+import InstagramIcon from "@material-ui/icons/Instagram";
+import EmailIcon from "@material-ui/icons/Email";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+
 function HomePage() {
   //styles
 
   const MainContainer = styled.div`
     width: 80%;
-    height: 50%;
-    margin: auto;
+    height: 80%;
+    margin: 2em auto;
+  `;
+
+  const ContentContainer = styled.div`
+    height: 60%;
     display: flex;
     justify-content: space-evenly;
     color: white;
+  `;
+
+  const ContactContainer = styled.div`
+    margin: 3em auto;
+    height: 20%;
+    width: 30%;
+    display: flex;
   `;
 
   const LeftContainer = styled.div`
@@ -53,11 +74,30 @@ function HomePage() {
 
   return (
     <MainContainer>
-      <LeftContainer>
-        <Title>Hey Friends! -</Title>
-        {description}
-      </LeftContainer>
-      <RightContainer />
+      <ContentContainer>
+        <LeftContainer>
+          <Title>Hey Friends! -</Title>
+          {description}
+        </LeftContainer>
+        <RightContainer />
+      </ContentContainer>
+      <ContactContainer>
+        <Social link="https://www.instagram.com/blei37/">
+          <InstagramIcon fontSize="large" />
+        </Social>
+        <Social link="https://www.facebook.com/brandonlei37">
+          <FacebookIcon fontSize="large" />
+        </Social>
+        <Social link="https://www.instagram.com/blei37/">
+          <LinkedInIcon fontSize="large" />
+        </Social>
+        <Social link="https://github.com/blei37">
+          <GitHubIcon fontSize="large" />
+        </Social>
+        <Social link="mailto:siliang.lei@gmail.com">
+          <EmailIcon fontSize="large" />
+        </Social>
+      </ContactContainer>
     </MainContainer>
   );
 }
