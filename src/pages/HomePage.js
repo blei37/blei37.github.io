@@ -88,7 +88,7 @@ function HomePage() {
         <Social link="https://www.facebook.com/brandonlei37">
           <FacebookIcon fontSize="large" />
         </Social>
-        <Social link="https://www.instagram.com/blei37/">
+        <Social link="https://www.linkedin.com/in/brandonlei/">
           <LinkedInIcon fontSize="large" />
         </Social>
         <Social link="https://github.com/blei37">
