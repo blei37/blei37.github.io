@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.8aa93a2e.chunk.css",
-    "main.js": "/static/js/main.a7bd3519.chunk.js",
-    "main.js.map": "/static/js/main.a7bd3519.chunk.js.map",
+    "main.js": "/static/js/main.bf2c1882.chunk.js",
+    "main.js.map": "/static/js/main.bf2c1882.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3828a765.js",
     "runtime-main.js.map": "/static/js/runtime-main.3828a765.js.map",
-    "static/js/2.90ee02f8.chunk.js": "/static/js/2.90ee02f8.chunk.js",
-    "static/js/2.90ee02f8.chunk.js.map": "/static/js/2.90ee02f8.chunk.js.map",
+    "static/js/2.070d3894.chunk.js": "/static/js/2.070d3894.chunk.js",
+    "static/js/2.070d3894.chunk.js.map": "/static/js/2.070d3894.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.8aa93a2e.chunk.css.map": "/static/css/main.8aa93a2e.chunk.css.map",
-    "static/js/2.90ee02f8.chunk.js.LICENSE.txt": "/static/js/2.90ee02f8.chunk.js.LICENSE.txt",
+    "static/js/2.070d3894.chunk.js.LICENSE.txt": "/static/js/2.070d3894.chunk.js.LICENSE.txt",
     "static/media/appBackground.4f663602.jpg": "/static/media/appBackground.4f663602.jpg",
     "static/media/campfire.84e71058.png": "/static/media/campfire.84e71058.png",
     "static/media/campusPic.127cdd63.JPG": "/static/media/campusPic.127cdd63.JPG",
     "static/media/cityLine.cfd696ce.jpg": "/static/media/cityLine.cfd696ce.jpg",
     "static/media/everwing.147d0b11.jpg": "/static/media/everwing.147d0b11.jpg",
+    "static/media/future.dbbad1e1.jpg": "/static/media/future.dbbad1e1.jpg",
     "static/media/mountainRange.140d536f.jpg": "/static/media/mountainRange.140d536f.jpg",
-    "static/media/profilePic.57db15ca.png": "/static/media/profilePic.57db15ca.png"
+    "static/media/nba.5db22e76.jpg": "/static/media/nba.5db22e76.jpg",
+    "static/media/office.4f6ddb26.jpg": "/static/media/office.4f6ddb26.jpg",
+    "static/media/profilePic.57db15ca.png": "/static/media/profilePic.57db15ca.png",
+    "static/media/tupleTunes.13752a46.png": "/static/media/tupleTunes.13752a46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3828a765.js",
-    "static/js/2.90ee02f8.chunk.js",
+    "static/js/2.070d3894.chunk.js",
     "static/css/main.8aa93a2e.chunk.css",
-    "static/js/main.a7bd3519.chunk.js"
+    "static/js/main.bf2c1882.chunk.js"
   ]
 }
