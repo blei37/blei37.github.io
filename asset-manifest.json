@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8aa93a2e.chunk.css",
-    "main.js": "/static/js/main.bf2c1882.chunk.js",
-    "main.js.map": "/static/js/main.bf2c1882.chunk.js.map",
+    "main.js": "/static/js/main.8ce6c9ad.chunk.js",
+    "main.js.map": "/static/js/main.8ce6c9ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3828a765.js",
     "runtime-main.js.map": "/static/js/runtime-main.3828a765.js.map",
-    "static/js/2.070d3894.chunk.js": "/static/js/2.070d3894.chunk.js",
-    "static/js/2.070d3894.chunk.js.map": "/static/js/2.070d3894.chunk.js.map",
+    "static/js/2.cf1c312b.chunk.js": "/static/js/2.cf1c312b.chunk.js",
+    "static/js/2.cf1c312b.chunk.js.map": "/static/js/2.cf1c312b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.8aa93a2e.chunk.css.map": "/static/css/main.8aa93a2e.chunk.css.map",
-    "static/js/2.070d3894.chunk.js.LICENSE.txt": "/static/js/2.070d3894.chunk.js.LICENSE.txt",
+    "static/js/2.cf1c312b.chunk.js.LICENSE.txt": "/static/js/2.cf1c312b.chunk.js.LICENSE.txt",
     "static/media/appBackground.4f663602.jpg": "/static/media/appBackground.4f663602.jpg",
     "static/media/campfire.84e71058.png": "/static/media/campfire.84e71058.png",
     "static/media/campusPic.127cdd63.JPG": "/static/media/campusPic.127cdd63.JPG",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3828a765.js",
-    "static/js/2.070d3894.chunk.js",
+    "static/js/2.cf1c312b.chunk.js",
     "static/css/main.8aa93a2e.chunk.css",
-    "static/js/main.bf2c1882.chunk.js"
+    "static/js/main.8ce6c9ad.chunk.js"
   ]
 }
