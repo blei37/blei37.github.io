@@ -18,10 +18,10 @@ import office from "../assets/blogs/office.jpg";
 function Projects() {
   //styles
   const MainContainer = styled.div`
-    font-size: 35px;
-    width: 80%;
-    height: 80%;
+    max-width: 1200px;
+    height: 650px;
     margin: auto;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -31,15 +31,16 @@ function Projects() {
     margin: auto;
     color: white;
     transition: 1s;
+    transform: scale(2);
 
     :hover {
       cursor: pointer;
-      transform: scale(1.5);
       color: blue;
     }
   `;
+
   const InfoContainer = styled.div`
-    width: 80%;
+    width: 1100px;
   `;
 
   //content
