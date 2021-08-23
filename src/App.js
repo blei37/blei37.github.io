@@ -19,7 +19,7 @@ import mountainRange from "./assets/mountainRange.jpg";
 function App() {
   //styles
   const AppContainer = styled.div`
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: black;
     background-image: url(${mountainRange});

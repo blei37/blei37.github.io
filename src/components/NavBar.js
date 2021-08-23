@@ -10,21 +10,20 @@ import NavLink from "./NavLink";
 function NavBar() {
   //styles
   const MainContainer = styled.div`
-    width: 80%;
-    font-size: 20px;
-    height: 15%;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px 10px 10px;
     display: flex;
     justify-content: space-evenly;
   `;
   const LeftContainer = styled.div`
-    width: 40%;
+    width: 300px;
     margin: auto;
     text-align: center;
     font-family: "Dancing Script", cursive;
-    font-size: 2em;
-    color: purple;
-    letter-spacing: 5px;
+    font-size: 45px;
+    color: blue;
+    letter-spacing: 7px;
 
     :hover {
       cursor: pointer;
@@ -32,7 +31,7 @@ function NavBar() {
   `;
 
   const RightContainer = styled.div`
-    width: 45%;
+    width: 600px;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -54,7 +53,6 @@ function NavBar() {
         <NavLink name="About" />
         <NavLink name="Projects" />
         <NavLink name="Blogs" />
-        {/* <NavLink name="Contact" /> */}
       </RightContainer>
     </MainContainer>
   );

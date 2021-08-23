@@ -7,15 +7,19 @@ import { useHistory } from "react-router-dom";
 function NavLink(props) {
   //styles
   const MainContainer = styled.div`
-    width: 80%;
-    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
     margin: 20px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
-    padding: 10px;
+
     transition-duration: 0.8s;
-    text-decoration: underline;
     color: black;
 
     :hover {

@@ -21,22 +21,19 @@ function HomePage() {
   //styles
 
   const MainContainer = styled.div`
-    width: 75%;
-    height: 80%;
-    margin: 2em auto;
+    max-width: 1200px;
+    margin: 30px auto;
   `;
 
   const ContentContainer = styled.div`
-    height: 60%;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     color: white;
   `;
 
   const ContactContainer = styled.div`
-    margin: 3em auto;
-    height: 20%;
+    margin: auto;
+    margin-top: 20px;
     width: 30%;
     display: flex;
   `;
@@ -51,19 +48,15 @@ function HomePage() {
 
   const Title = styled.div`
     font-size: 50px;
-    text-align: left;
   `;
 
   const RightContainer = styled.div`
-    width: 30%;
+    width: 450px;
+    height: 500px;
     background-image: url(${profilePic});
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border-radius: 10%;
-
-    @media (max-width: 1150px) {
-      background-image: none;
-    }
+    border-radius: 30px;
   `;
 
   //constants

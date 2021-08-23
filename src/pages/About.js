@@ -10,49 +10,44 @@ function About() {
   //styles
 
   const MainContainer = styled.div`
-    font-size: 35px;
-    width: 100%;
-    height: 80%;
-    margin: auto;
-    background: none;
+    margin: 10px auto;
+    width: 1200px;
     color: white;
   `;
 
   const InfoContainer = styled.div`
-    width: 50%;
-    height: 50%;
+    width: 1000px;
+    padding: 15px;
     margin: auto;
-    margin-bottom: 2em;
+
     text-align: left;
     font-family: "Poppins", sans-serif;
+    font-size: 18px;
+
     display: flex;
     justify-content: space-evenly;
-    font-size: 0.5em;
   `;
 
   const DescriptionContainer = styled.div`
-    width: 60%;
+    width: 500px;
     margin: auto;
   `;
 
   const PictureContainer = styled.div`
-    width: 30%;
-    margin: 0;
+    width: 300px;
+    height: 400px;
     background-image: url(${campusPic});
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10%;
-
-    @media (max-width: 1150px) {
-      background-image: none;
-    }
   `;
 
   const ContainerTitle = styled.div`
     font-style: italic;
-    margin-bottom: 0.5em;
+    margin-bottom: 30px;
     color: black;
-    font-size: 1.3em;
+    font-size: 30px;
+    font-weight: 600;
   `;
 
   return (
